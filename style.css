@@ -1,0 +1,50 @@
+/* Use a custom font for the website title */
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+/* Set the background color and font for the whole page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the website title */
+h1 {
+  color: #d2691e;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Kaushan Script', cursive;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Style the navigation links */
+a {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+/* Use different background colors for the links */
+a:nth-of-type(1) {
+    background-color: rgb(231, 7, 7);
+  }
+  
+  a:nth-of-type(2) {
+    background-color: #8b4513;
+  }
+  
+  a:nth-of-type(3) {
+    background-color: #ffa500;
+  }
+  
+  /* Change the background color on hover */
+  a:hover {
+    background-color: #eee;
+    color: #333;
+  }
